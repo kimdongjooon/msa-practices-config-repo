@@ -9,7 +9,7 @@ spring:
 
    datasource:
       driver-class-name: org.mariadb.jdbc.Driver
-      url: jdbc:mariadb://192.168.0.172:3307/webdb?characterEncoding=utf8  # 암호화 
+      url: jdbc:mariadb://192.168.0.100:3307/webdb?characterEncoding=utf8  # 암호화 
       username: webdb
       password: '{ciper}AQBUt0Z+aAuP7CTGaLB6qSh6HaWBzIhiBXL9qt/Q+lZR2musb4DHWD+TqlcAkjRxApk+V4MNKjvGuqPS1h2vK86Qb5rZy05q2gB1VXu/VP5APNMXrIZEd7X8c8ksteqga6L1AufX4hycl6KBilzjBE3QrpKqWF15V3OX/YUQl/u7i/F0G3DRw0pJtJ5R5tcmAvTAg5M2TtbV4F67dG/oYb2Q98rt9kJI4lkmEqOilUBYCHwODOnmb+fYq7vio7x1vhAadR6uWlRq0xnvKpV5yaugR50N6fmawRzBOXAL6midMCXdyMUUi06f1rnw9TWUHFOEaSgiYTn922BjRENTz1H530Io2vny3OK4tNckNOKjmHWvzKcWiPadg96trjkNfEc='
       hikari:
