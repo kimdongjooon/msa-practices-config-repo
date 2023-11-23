@@ -9,9 +9,9 @@ spring:
 
    datasource:
       driver-class-name: org.mariadb.jdbc.Driver
-      url: jdbc:mariadb://192.168.0.172:3307/webdb?characterEncoding=utf8
+      url: jdbc:mariadb://192.168.0.172:3307/webdb?characterEncoding=utf8  # 암호화 
       username: webdb
-      password: webdb
+      password: webdb  # 암호화 
       hikari:
          minimum-idle: 10
          maximum-pool-size: 20
